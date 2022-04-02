@@ -5,7 +5,7 @@
 
 	<groupId>com.ctrlcutter.io</groupId>
 	<artifactId>iohandler</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>iohandler</name>
