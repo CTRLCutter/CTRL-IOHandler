@@ -35,6 +35,7 @@ public class ScriptFileWriter {
 
     private static String reformatContent(String baseContent) {
         String formattedContent = baseContent.replaceAll("%-%", " ");
+        formattedContent = formattedContent.replaceAll("%-n-%", System.lineSeparator());
         return formattedContent;
     }
 }
